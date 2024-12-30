@@ -16,11 +16,11 @@ This extension integrates with the maang.in platform to provide AI assistance. U
 * **AI Assistance** : Provides AI-generated responses to user queries.
 * **API Key Management** : Users can enter and save their API key.
 * **Copy Button** : Allows users to copy text with a single click.
-* **Download Chat History** : Users can download the chat history.
+* **Download Chat History** : Users can download the chat history for offline reference.
 * **Theme Support** : Supports both light and dark themes.
-* **Draggable Chat Box** : The chat box can be moved around the screen.
+* **Draggable and resizable Chat Box** : The chat box can be moved around the screen and resized as per the need.
 * **Persistent Chat History** : Saves and loads chat history for each problem.
-* **Problem Context Extraction** : Extracts problem details from the maang.in platform.
+* **Problem Context awareness** : The AI already has the problem details, hints, editorial code of the problem for better responses.
 
 
 ## How to Run the Project
@@ -33,11 +33,41 @@ This extension integrates with the maang.in platform to provide AI assistance. U
 ### Steps
 
 1. **Clone the Repository**
+   
    `git clone <repository-url>`
 
    `cd <repository-directory>`
 2. **Load the Extension in Chrome**
 
-* Open Chrome and go to [chrome://extensions/](vscode-file://vscode-app/c:/Users/varun/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html).
+* Open Chrome and go to [chrome://extensions/].
 * Enable "Developer mode" using the toggle switch in the top right corner.
 * Click on "Load unpacked" and select the directory where you cloned the repository.
+
+3. **Enter Your API Key**
+
+* Click on the extension icon in the Chrome toolbar.
+* Enter your API key in the input field and click "Save".
+
+4. **Using the Extension**
+
+* Navigate to the maang.in platform.
+* The AI help button will appear next to the "Ask Doubt" button when you are on a problems page.
+* Click the AI help button to open the chat box and start interacting with the AI.
+
+## Some Screenshots
+![image](https://github.com/user-attachments/assets/20b8b9b9-9686-446a-8224-24c5ab94985b)
+
+![image](https://github.com/user-attachments/assets/54136ea0-fccd-4e24-a91b-8e57b9546166)
+
+![image](https://github.com/user-attachments/assets/b76ee72c-9f55-42c1-83e4-62a71564484e)
+
+![image](https://github.com/user-attachments/assets/c342645d-1e22-41cf-b1a0-060d30173ddd)
+
+
+## Additional Information
+
+* API Key: The extension requires an API key to fetch AI responses. You can obtain an API key for gemini (the model used for the extension)from: https://aistudio.google.com/app/apikey.
+* Theme Detection: The extension automatically detects the theme (light or dark) of the maang.in platform and adjusts the button and chat box styles accordingly.
+* Error Handling: The extension includes error handling for API calls and other operations to ensure a smooth user experience.
+
+
