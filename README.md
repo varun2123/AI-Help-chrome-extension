@@ -33,10 +33,7 @@ This extension integrates with the maang.in platform to provide AI assistance. U
 ### Steps
 
 1. **Clone the Repository**
-   
-   `git clone <repository-url>`
 
-   `cd <repository-directory>`
 2. **Load the Extension in Chrome**
 
 * Open Chrome and go to [chrome://extensions/].
