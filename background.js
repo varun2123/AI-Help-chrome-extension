@@ -71,6 +71,7 @@ async function fetchAIResponse(message) {
   }
 
   const data = await response.json();
+  console.log(data);
   if (data && data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts && data.candidates[0].content.parts[0].text) {
     return data.candidates[0].content.parts[0].text;
   } else {
