@@ -63,6 +63,9 @@ This extension integrates with the maang.in platform to provide AI assistance. U
 
 ![image](https://github.com/user-attachments/assets/c342645d-1e22-41cf-b1a0-060d30173ddd)
 
+![image](https://github.com/user-attachments/assets/32752212-d68a-4524-ba59-6b59127c2bbf)
+
+
 
 ## Additional Information
 
