@@ -54,14 +54,23 @@ This extension integrates with the maang.in platform to provide AI assistance. U
 ## Some Screenshots
 ![image](https://github.com/user-attachments/assets/20b8b9b9-9686-446a-8224-24c5ab94985b)
 
+Entering the API key when using the extension for the first time
+
 ![image](https://github.com/user-attachments/assets/54136ea0-fccd-4e24-a91b-8e57b9546166)
+
+An initial message displayed for better appeal
 
 ![image](https://github.com/user-attachments/assets/b76ee72c-9f55-42c1-83e4-62a71564484e)
 
+Drag anywwhere and resize as per the need
+
 ![image](https://github.com/user-attachments/assets/c342645d-1e22-41cf-b1a0-060d30173ddd)
+
+You can also download the conversation for problems
 
 ![image](https://github.com/user-attachments/assets/32752212-d68a-4524-ba59-6b59127c2bbf)
 
+Directly copy paste the response/code.
 
 
 ## Additional Information
